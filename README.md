@@ -19,6 +19,7 @@ Alphabet Soup’s business team has a CSV containing more than 34,000 organizati
 4. The EIN and NAME variables were removed because these are identifications of foundations and don't represent any value to the model
 
 **Compiling, Training, and Evaluating the Model**
+
 According to the best practices and experts recommendations to avoid building a neural network model overfitted, we started considering the following settings:
 - 1 Input layer with 44 variables
 - 2 Hidden layers:
