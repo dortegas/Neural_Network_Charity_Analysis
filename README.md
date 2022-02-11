@@ -61,4 +61,4 @@ Accuracy outcome: 0.7260, not a considerable optimization.
 Accuracy outcome: 0.7252, without optimization.
 
 ## Summary
-
+As additional attempts to achieve a target predictive accuracy higher than 75%, we applied the RandomForrest and Lineal Regressions models, getting accuracy outcomes of 0.70 and 0.72, respectively. As with all machine learning algorithms, neural networks are not perfect and will often underperform using a basic implementation. However, in our analysis, we could consider insufficient or ineffective training data. 
