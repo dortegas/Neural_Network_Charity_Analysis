@@ -24,11 +24,11 @@ Alphabet Soup’s business team has a CSV containing more than 34,000 organizati
 According to the best practices and experts recommendations to avoid building a neural network model overfitted, we started considering the following settings:
 - 1 Input layer with 44 variables
 - 2 Hidden layers:
-   - First layer with 80 neurons, with Relu as activation function
-   - Second layer with 30 neurons, with Relu as activation function
+   - First layer with 80 neurons and Relu as activation function
+   - Second layer with 30 neurons and Relu as activation function
 - The Output layer with the Sigmoid activation function
 
-The 80 neurons in the first hidden layer are in a 1:2 ratio of our input variables (44). Due to we are creating a binary classifier capable of predicting whether applicants will be successful if funded by Alphabet Soup, we set the ReLU function which is ideal for looking at positive nonlinear input data for classification.
+The 80 neurons in the first hidden layer are in a 1:2 ratio of our input variables (44). Because we are creating a binary classifier capable of predicting whether applicants will be successful if funded by "Alphabet Soup," we chose the ReLU function in the hidden layers as the ideal for looking at positive nonlinear input data for classification and its less complexity.
 
  
   - Were you able to achieve the target model performance?
