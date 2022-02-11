@@ -30,6 +30,5 @@ According to the best practices and experts recommendations to avoid building a 
 
 The 80 neurons in the first hidden layer are in a 1:2 ratio of our input variables (44). Because we are creating a binary classifier capable of predicting whether applicants will be successful if funded by "Alphabet Soup," we chose the ReLU function in the hidden layers as the ideal for looking at positive nonlinear input data for classification and its less complexity.
 
- 
-  - Were you able to achieve the target model performance?
-  - What steps did you take to try and increase model performance?
+The accuracy of this model was 0.7251. For this reason, we tried to optimize the model to achieve a target predictive accuracy higher than 75% by making the following modifications in three attempts.
+
