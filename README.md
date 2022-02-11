@@ -32,8 +32,7 @@ The 80 neurons in the first hidden layer are in a 1:2 ratio of our input variabl
 
 The accuracy of this model was 0.7251. For this reason, we tried to optimize the model to achieve a target predictive accuracy higher than 75% by making the following modifications in three attempts.
 
-**Attempt 1**
-Dropping the column SPECIAL_CONSIDERATIONS and creating an additional APPLICATION_TYPE bin. The neural network model was built as follows:
+**Attempt 1**. Dropping the column SPECIAL_CONSIDERATIONS and creating an additional APPLICATION_TYPE bin. The neural network model was built as follows:
 - 1 Input layer with 43 variables
 - 2 Hidden layers:
    - First layer with 80 neurons and Relu as activation function
@@ -42,5 +41,24 @@ Dropping the column SPECIAL_CONSIDERATIONS and creating an additional APPLICATIO
 
 Accuracy outcome: 0.7262, not a considerable optimization.
 
+**Attempt 2**. Adding more neurons to hidden layers and increasing the number of epochs. The neural network model was built as follows:
+- 1 Input layer with 43 variables
+- 2 Hidden layers:
+   - First layer with 120 neurons and Relu as activation function
+   - Second layer with 45 neurons and Relu as activation function
+- The Output layer with the Sigmoid activation function
 
+Accuracy outcome: 0.7260, not a considerable optimization.
+
+**Attempt 3**. Adding a third hidden layer and changing the activation function to Sigmoid. The neural network model was built as follows:
+- 1 Input layer with 43 variables
+- 3 Hidden layers:
+   - First layer with 120 neurons and Sigmoid as activation function
+   - Second layer with 45 neurons and Sigmoid as activation function
+   - Third layer with 20 neurons and Sigmoid as activation function
+- The Output layer with the Sigmoid activation function
+
+Accuracy outcome: 0.7252, without optimization.
+
+## Summary
 
