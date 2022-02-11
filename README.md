@@ -5,6 +5,7 @@ Alphabet Soup’s business team has a CSV containing more than 34,000 organizati
 
 ## Results
 **Data Preprocessing**
+ - The variables considered to be features on the model are: APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS and ASK_AMT
  - What variable(s) are considered the target(s) for your model?
  - What variable(s) are considered to be the features for your model?
  - What variable(s) are neither targets nor features, and should be removed from the input data?
