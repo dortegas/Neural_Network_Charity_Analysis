@@ -7,8 +7,8 @@ Alphabet Soup’s business team has a CSV containing more than 34,000 organizati
 **Data Preprocessing**
 1. The variable IS_SUCCESSFUL is a data type bool that entails whether or not the charity donation is effective. Therefore this variable is considered as the target for our neural network model
 2. The variables considered to be features on the model are:
-    APPLICATION_TYPE—Alphabet Soup application type
-    AFFILIATION—Affiliated sector of industry
+   - APPLICATION_TYPE—Alphabet Soup application type
+   - AFFILIATION—Affiliated sector of industry
     CLASSIFICATION—Government organization classification
     USE_CASE—Use case for funding
     ORGANIZATION—Organization type
