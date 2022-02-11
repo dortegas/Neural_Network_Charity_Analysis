@@ -28,6 +28,8 @@ According to the best practices and experts recommendations to avoid building a 
    - Second layer with 30 neurons, with Relu as activation function
 - The Output layer with the Sigmoid activation function
 
-  - How many neurons, layers, and activation functions did you select for your neural network model, and why?
+The 80 neurons in the first hidden layer are in a 1:2 ratio of our input variables (44). Due to we are creating a binary classifier capable of predicting whether applicants will be successful if funded by Alphabet Soup, we set the ReLU function which is ideal for looking at positive nonlinear input data for classification.
+
+ 
   - Were you able to achieve the target model performance?
   - What steps did you take to try and increase model performance?
