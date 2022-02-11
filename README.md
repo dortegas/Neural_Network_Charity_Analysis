@@ -19,6 +19,13 @@ Alphabet Soup’s business team has a CSV containing more than 34,000 organizati
 4. The EIN and NAME variables were removed because these are identifications of foundations and don't represent any value to the model
 
 **Compiling, Training, and Evaluating the Model**
+According to the best practices and experts recommendations to avoid building a neural network model overfitted, we started considering the following settings:
+- 1 Input layer with 44 variables
+- 2 Hidden layers:
+   - First layer with 80 neurons, with Relu as activation function
+   - Second layer with 30 neurons, with Relu as activation function
+- The Output layer with the Sigmoid activation function
+
   - How many neurons, layers, and activation functions did you select for your neural network model, and why?
   - Were you able to achieve the target model performance?
   - What steps did you take to try and increase model performance?
